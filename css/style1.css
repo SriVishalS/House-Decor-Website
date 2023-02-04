@@ -1,0 +1,17 @@
+.block {
+  width: 6.25%;
+  float: left;
+  position: relative;
+  transition: opacity 500ms ease;
+  background-color: transparent;
+  transition: all 3s linear;
+}
+.block:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.block:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: all 100ms linear;
+}

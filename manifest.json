@@ -1,0 +1,15 @@
+{
+      "short_name": "House Decor",
+      "name": "House Decor By Aakash",
+      "icons": [
+            {
+                  "src": "./images/weblogomain.png",
+                  "type": "image/png",
+                  "sizes": "192x192"
+            }
+      ],
+      "start_url": "index.html",
+      "display": "fullscreen",
+      "background_color": "#fff",
+      "theme_color": "#fff"
+}
