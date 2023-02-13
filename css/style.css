@@ -71,6 +71,28 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+#scroll-to-top-btn {
+  background-color: orange;
+  border-radius: 50px;
+  color: black;
+  position: fixed;
+  bottom: 25px;
+  right: 10px;
+  height: 35px;
+  width: 35px;
+  z-index: 1000;
+}
+#waBtn{
+  background-color: green;
+  border-radius: 50px;
+  color: white;
+  position: fixed;
+  bottom: 25px;
+  right: 45px;
+  height: 35px;
+  width: 35px;
+  z-index: 1000;
+}
 /* !---------------------------------------------LOADER STYLES---------------------------------------- */
 .loaderWrapper {
   display: flex;
@@ -1052,7 +1074,7 @@ padding-right:0;
 }
 
 #filter {
-margin-top: 50px;
+  margin-top: 50px;
   display: inline-block !important;
 }
 #filter li {
@@ -1176,7 +1198,6 @@ margin-top: 50px;
   box-shadow: none;
   list-style: none;
 }
-
 
 .view ul a:hover,
 .view ul a:hover i {
